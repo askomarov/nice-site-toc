@@ -34,7 +34,7 @@ function letters(title: string): string[] {
 
     <main>
       <section v-for="section in sections" :id="section.id" :key="section.id" :data-section="section.id" class="panel">
-        <h2 class="sr-only">{{ section.title }}</h2>
+        <h2>{{ section.title }}</h2>
         <p>{{ section.body }}</p>
       </section>
     </main>
